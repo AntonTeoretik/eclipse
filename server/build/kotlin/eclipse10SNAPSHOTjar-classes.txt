@@ -1,1 +1,0 @@
-C:\Users\Anton Ablov\Documents\GitHub\eclipse\server\build\classes\kotlin\main\MainKt.class

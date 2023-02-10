@@ -1,0 +1,17 @@
+syntax = "proto3";
+package eclipse;
+
+option java_multiple_files = true;
+
+enum RequestType {
+  GAME_STATE_REQUEST = 0;
+  PERFORM_ACTION_REQUEST = 1;
+}
+
+message Request {
+  string sender_id = 1;
+  RequestType request = 3;
+}
+
+message Response {
+}
